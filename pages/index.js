@@ -37,19 +37,20 @@ export default function Home() {
     <>
       <div className={styles.landingWrapper}>
         <h1 className={styles.writeCopy}>
-          Write Product Descriptions <br /> That Grabs Your
-          <br /> Customers Attention
+          Better product descriptions. <br /> More conversions.
         </h1>
         <form className={styles.formStyles} onSubmit={subscribe}>
-          <input
-            className={styles.emailInput}
-            id="email-input"
-            name="email"
-            placeholder="Enter your email address"
-            ref={inputRef}
-            required
-            type="email"
-          />
+          <div>
+            <input
+              className={styles.emailInput}
+              id="email-input"
+              name="email"
+              placeholder="Enter your email address"
+              ref={inputRef}
+              required
+              type="email"
+            />
+          </div>
           <div>{message ? message : null}</div>
           <button type="submit" className={styles.waitlist}>
             Join the waitlist!

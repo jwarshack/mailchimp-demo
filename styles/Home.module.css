@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 .landingWrapper {
   display: flex;
   flex-direction: column;
@@ -7,10 +9,11 @@
 }
 
 .writeCopy {
-  text-align: center;
-  font-size: 72px;
-  color: grey;
-  line-height: 1.5;
+  font-family: Inter;
+  font-weight: 700;
+  text-align: left;
+  font-size: 56px;
+  color: black;
 }
 
 .emailInput {
