@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 .landingWrapper {
   display: flex;
@@ -10,32 +10,66 @@
 
 .writeCopy {
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   font-size: 56px;
   color: black;
+  z-index: 1000;
+}
+
+.h4Copy {
+  font-family: Inter;
+  font-weight: 400;
+  color: #939393;
+  margin: 1.5rem 0 2rem 0;
 }
 
 .emailInput {
-  width: 649px;
-  height: 50px;
+  width: 628px;
+  height: 62px;
   border-radius: 10px;
   border: none;
-  background-color: grey;
-  font-size: 23px;
-  color: white;
+  background-color: #e7e7e7;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  color: #878787;
   padding-left: 2rem;
 }
 
 .waitlist {
-  width: 179px;
-  height: 50px;
-  border-radius: 10px;
+  width: 135px;
+  height: 51px;
+  border-radius: 7px;
   border: none;
-  font-size: 23px;
-  color: grey;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  position: absolute;
+  right: 508px;
+  margin: 6px 6px 0 0;
+  cursor: pointer;
 }
 
 .formStyles {
   display: flex;
+}
+
+.colorCircle {
+  position: absolute;
+  top: -7%;
+  right: 1%;
+  z-index: -1000;
+}
+
+.blueBlob {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.blobBlur {
+  background: transparent;
+  filter: blur(400px);
 }
