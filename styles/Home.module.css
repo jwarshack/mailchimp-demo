@@ -50,6 +50,12 @@
   right: 508px;
   margin: 6px 6px 0 0;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.waitlist:hover {
+  background-color: #222222;
+  transform: scale(1.03);
 }
 
 .formStyles {
@@ -65,8 +71,9 @@
 
 .blueBlob {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: -2%;
+  left: -30%;
+  z-index: -1000;
 }
 
 .blobBlur {
