@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 414px) {
   .writeCopy {
     font-size: 25px;
     text-align: center;
@@ -129,7 +129,7 @@
     height: 35px;
     width: 100px;
     font-size: 12px;
-    right: 30px;
+    right: 50px;
     margin: 2px 8px 0 0;
   }
 }
@@ -178,9 +178,6 @@
 
 .blueBlob {
   position: absolute;
-  top: -2%;
-  left: -30%;
-  z-index: -1000;
 }
 
 @media (max-width: 375px) {
@@ -208,5 +205,13 @@
 }
 
 .blobBlur {
-  filter: blur(400px);
+  filter: blur(100px);
+}
+
+.imageBlur {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: -1000;
+  filter: blur(75px);
 }

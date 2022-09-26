@@ -79,18 +79,8 @@ export default function Home() {
             />
           </svg>
         </div>
-        <div className={styles.blueBlob}>
-          <svg
-            className={styles.blobBlur}
-            viewBox="0 0 320 150"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill="#B1CAF0"
-              d="M44.8,-59.2C58.5,-51.8,70.2,-39.2,77.4,-23.6C84.5,-8.1,87,10.5,77.6,20.8C68.1,31,46.7,32.9,31.8,33.3C16.9,33.7,8.4,32.5,-4,37.9C-16.4,43.4,-32.7,55.5,-34.8,50.9C-36.8,46.4,-24.5,25.2,-30.7,9.2C-36.8,-6.7,-61.5,-17.3,-64.9,-25.5C-68.4,-33.7,-50.6,-39.4,-36.2,-46.6C-21.9,-53.8,-10.9,-62.4,2.3,-65.6C15.6,-68.8,31.2,-66.6,44.8,-59.2Z"
-              transform="translate(100 100)"
-            />
-          </svg>
+        <div className={styles.imageBlur}>
+          <Image src="/bleuBlob.png" height={500} width={500} alt="blueblob" />
         </div>
       </div>
     </>
