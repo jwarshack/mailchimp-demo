@@ -66,6 +66,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .h4Copy {
+    text-align: center;
+  }
+}
+
 .emailInput {
   width: 628px;
   height: 62px;
@@ -103,6 +109,14 @@
   }
 }
 
+@media (min-width: 414px) {
+  .emailInput {
+    font-size: 14px;
+    height: 50px;
+    width: 380px;
+  }
+}
+
 .waitlist {
   width: 135px;
   height: 51px;
@@ -130,7 +144,7 @@
     width: 100px;
     font-size: 12px;
     right: 50px;
-    margin: 2px 8px 0 0;
+    margin: 2px 15px 0 0;
   }
 }
 @media (max-width: 360px) {
@@ -149,7 +163,16 @@
     width: 100px;
     font-size: 12px;
     right: 30px;
-    margin: 2px 0 0 0;
+    margin: 2px -121px 0 0;
+  }
+}
+
+@media (min-width: 414px) {
+  .waitlist {
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    margin: 4px -120px 0 0;
   }
 }
 
@@ -211,7 +234,7 @@
 .imageBlur {
   position: absolute;
   top: 40%;
-  left: 10%;
+  left: -2%;
   z-index: -1000;
-  filter: blur(75px);
+  filter: blur(100px);
 }
