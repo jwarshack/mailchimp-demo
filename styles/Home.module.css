@@ -106,10 +106,9 @@
     height: 50px;
     width: 380px;
     font-size: 14px;
+    margin-left: 10px;
   }
 }
-
-
 
 .waitlist {
   width: 135px;
@@ -156,7 +155,7 @@
     height: 40px;
     width: 100px;
     font-size: 12px;
-    margin: 4px -120px 0 0;
+    margin: 4px -129px 0 0;
   }
 }
 
