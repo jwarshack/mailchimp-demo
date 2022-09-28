@@ -85,28 +85,28 @@
   padding-left: 2rem;
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .emailInput {
     height: 40px;
     width: 330px;
     font-size: 12px;
   }
-}
+} */
 
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
   .emailInput {
     height: 40px;
     width: 330px;
     font-size: 12px;
   }
-}
+} */
 
 @media (max-width: 414px) {
   .emailInput {
     height: 50px;
-    width: 380px;
+    width: 350px;
     font-size: 14px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 }
 
@@ -136,8 +136,7 @@
     height: 35px;
     width: 100px;
     font-size: 12px;
-    right: 50px;
-    margin: 2px 15px 0 0;
+    margin: 2px 30px 0 0;
   }
 }
 @media (max-width: 360px) {
@@ -150,23 +149,20 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 400px) {
   .waitlist {
     height: 40px;
     width: 100px;
     font-size: 12px;
-    margin: 4px -129px 0 0;
+    margin: 4px -120px 0 0;
   }
 }
 
-/* @media (min-width: 414px) {
+@media (max-width: 414px) {
   .waitlist {
-    height: 40px;
-    width: 100px;
-    font-size: 14px;
-    margin: 4px -120px 0 0;
+    margin: 2px -110px 0 0;
   }
-} */
+}
 
 @media (max-width: 810px) {
   .waitlist {
